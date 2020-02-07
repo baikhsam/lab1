@@ -1,0 +1,134 @@
+* {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a.btn-person-font {
+    font-size: 20px;
+}
+
+.main-home {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 98vh;
+    padding: 0;
+    background: #ebebeb;
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 85%, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 85%, 50% 100%, 0 100%);*/
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 20%;
+}
+
+.main-scroll {
+    height: 61vh;
+    border: 1px solid black;
+}
+
+.btn-person {
+    position: relative;
+    overflow-y: scroll;
+    background-color: white;    
+    border-radius: 10px;
+    width: 95%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+img.btn-icon {
+    position: absolute;
+    left: 30px;
+    top: 19px;
+}
+
+.btn-mentor {
+    position: relative;
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.btn-person a {
+    position: absolute;
+    left: 75px;
+    top: 20px;
+    margin-top: auto;
+}
+
+.btn-settings {
+    align-self: flex-start;
+    height: 20px;
+    width: 10px;
+}
+
+.btn-account {
+    align-self: flex-start;
+    height: 20px;
+    width: 10px;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    border: 1px solid black;
+}
+
+.btn-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.btn-home {
+
+}
+
+.btn-msg {
+
+}
+
+button {
+    background-color: blue;
+}
+
+.logo {
+    
+    border: 1px solid black;
+}
